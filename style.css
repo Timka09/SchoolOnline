@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(110, 148, 148) ;
+}
+
+.pin1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.article{
+    text-align: center;
+    margin-top:100px ;
+}
+
+.pin{
+   width: 300px;
+   height: 435px;
+   margin-top: 110px;
+   margin-left: 50px;
+   gap: 60px;
+   font-size: 13px;
+   text-align: center;
+   border-radius: 7px;
+   border: solid black;
+   transition: transform 1s ;
+}
+.pin:hover{
+    transform: scale(1.070);
+}
+
+ p{
+    font-size: 16px;
+    line-height: 260px;
+ }
